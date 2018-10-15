@@ -3,8 +3,11 @@ A simple noughts and crosses game made for practicing C.
 
 Changelog
 
-Ver. 1.0 : 11.10.2018
+------------11.10.2018------------
 First version finished. The code works just fine, however, there is no  idication yet from the program that the game
 is won or lost yet. Since the character inputs of X and O are stored in an array for the duration of the program I
 could add a checker function which evalutes are there 3 X's or O's in the right places of the array to indicate a 
 winner. 
+
+------------13.10.2018------------
+Fixed a bug that allowed player 1 or 2 to overwrite pervious values
